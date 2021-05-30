@@ -1,0 +1,36 @@
+
+body{
+    background-image: url(../../assets/queue-at-a-bank.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -120px;
+}
+
+#login{
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 45px 10px 10px;
+
+    a{
+        display: flex;
+    }
+}
+#myform{
+ display: flex;
+ flex-direction:column;
+justify-content: center;    
+align-items: center;
+margin-top: 400px;
+text-align: center;
+text-shadow: 1px 1px 2px rgba(223, 214, 136, 0.801);
+
+    small{
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(223, 214, 136, 0.801);
+    }
+}
